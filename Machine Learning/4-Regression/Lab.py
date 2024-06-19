@@ -10,3 +10,7 @@ print(f"x_train: {x_train}")
 print(f"y_train: {y_train}")
 #You will use m to denote the number of training examples. Numpy arrays have a .shape parameter. x_train.shape returns a python tuple with an entry for each dimension. x_train.shape[0] is the length of the array and number of examples as shown below.
 # m is the number of training examples
+print(f"x_train.shape: {x_train.shape}")#return a tuple
+m=x_train.shape[0]
+print(f"m: {m}") #return the number of training examples
+
