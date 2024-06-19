@@ -32,10 +32,6 @@ plt.ylabel('Price in 1000s of dollars')
 plt.xlabel('Size in 1000s of square feet')
 #display the plot
 plt.show()
-#Prediction
-w = 100
-b = 100
-print(f"w: {w}")
-print(f"b: {b}")
+
 
 
