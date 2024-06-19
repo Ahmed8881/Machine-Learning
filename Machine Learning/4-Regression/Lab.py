@@ -25,6 +25,8 @@ print(f"x^{i}, y^{i}: ({x_i}, {y_i})") #return the first training example
 #plot the data points
 plt.scatter(x_train,y_train,marker='x',c='r')
 #set the title
+plt.title('House Prices')
+# set the y label
 
 
 
