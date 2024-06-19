@@ -8,16 +8,16 @@ b = 100
 print(f"w: {w}")
 print(f"b: {b}")
 
-
+"""
 def compute_model_output(x, w, b):
-    """
+ 
     Computes the prediction of a linear model
     Args:
       x (ndarray (m,)): Data, m examples 
       w,b (scalar)    : model parameters  
     Returns
       f_wb (ndarray (m,)): model prediction
-    """
+  
     m = x.shape[0]
     f_wb = np.zeros(m)
     for i in range(m):
@@ -41,3 +41,13 @@ plt.ylabel('Price (in 1000s of dollars)')
 plt.xlabel('Size (1000 sqft)')
 plt.legend()
 plt.show()
+  """
+def compute_model_output(x,w,b):
+    m=x.shape[0]
+    f_wb=np.zeros(m)
+    for i in range(m):
+        f_wb[i]=w*x[i]+b
+     
+    return f_wb    
+        
+      
