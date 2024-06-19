@@ -13,4 +13,12 @@ print(f"y_train: {y_train}")
 print(f"x_train.shape: {x_train.shape}")#return a tuple
 m=x_train.shape[0]
 print(f"m: {m}") #return the number of training examples
+mn=len(x_train)
+print(f"mn: {mn}") #return the number of training examples
+#To access a value in a Numpy array, one indexes the array with the desired offset. For example the syntax to access location zero of x_train is x_train[0]. Run the next code block below to get the  𝑖𝑡ℎ training example.
+i=0
+x_i=x_train[i]
+y_i=y_train[i]  
+print(f"x^{i}, y^{i}: ({x_i}, {y_i})") #return the first training example
+  
 
