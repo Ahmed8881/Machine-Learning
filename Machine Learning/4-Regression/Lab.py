@@ -29,6 +29,8 @@ plt.title('House Prices')
 # set the y label
 plt.ylabel('Price in 1000s of dollars')
 # set the x label
+plt.xlabel("Size in 1000s of square feet")
+plt.show()
 
 
 
