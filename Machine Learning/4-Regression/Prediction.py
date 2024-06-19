@@ -59,6 +59,8 @@ plt.scatter(x_train,y_train,marker='x',c='r',label='Actual Values')
 plt.title("Housing Prices")
 # Set the y-axis label
 plt.ylabel('Price (in 1000s of dollars)')
+# Set the x-axis label
+plt.xlabel('Size (1000 sqft)')
 
 plt.show()
         
