@@ -49,5 +49,10 @@ def compute_model_output(x,w,b):
         f_wb[i]=w*x[i]+b
      
     return f_wb    
+
+tmp_f_wb=compute_model_output(x_train,w,b)
+Plot our model prediction
+plt.plot(x_train,tmp_f_wb,c='b',label='Our Prediction')
+plt.show()
         
       
