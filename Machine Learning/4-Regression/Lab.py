@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 #----------------------------------------------------------Add Lab for regression
 # x_train is the input variable (size in 1000 square feet)
 # y_train is the target (price in 1000s of dollars)
-x_train = np.array([1.0, 2.0])
-y_train = np.array([300.0, 500.0])
+x_train=np.array([0.9,1.4,2.1,2.6,3.3,3.7,4.4,4.9,5.1,5.8,6.3,6.9,7.4,8.2,8.7,9.1])
+y_train=np.array([0.3,0.75,0.45,1.1,1.45,2.1,2.4,2.6,2.9,3.3,3.7,4.1,4.4,4.9,5.3,5.7])
 print(f"x_train: {x_train}")
 print(f"y_train: {y_train}")
 #You will use m to denote the number of training examples. Numpy arrays have a .shape parameter. x_train.shape returns a python tuple with an entry for each dimension. x_train.shape[0] is the length of the array and number of examples as shown below.
@@ -29,7 +29,8 @@ plt.title('House Prices')
 # set the y label
 plt.ylabel('Price in 1000s of dollars')
 # set the x label
-plt.xlabel("Size in 1000s of square feet")
+plt.xlabel('Size in 1000s of square feet')
+#display the plot
 plt.show()
 
 
