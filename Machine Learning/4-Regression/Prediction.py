@@ -51,8 +51,10 @@ def compute_model_output(x,w,b):
     return f_wb    
 
 tmp_f_wb=compute_model_output(x_train,w,b)
-Plot our model prediction
+#Plot our model prediction
 plt.plot(x_train,tmp_f_wb,c='b',label='Our Prediction')
+# Plot the data points
+plt.scatter(x_train,y_train,marker='x',c='r',label='Actual Values')
 plt.show()
         
       
