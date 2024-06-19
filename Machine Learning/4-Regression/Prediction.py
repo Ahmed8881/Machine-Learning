@@ -61,7 +61,7 @@ plt.title("Housing Prices")
 plt.ylabel('Price (in 1000s of dollars)')
 # Set the x-axis label
 plt.xlabel('Size (1000 sqft)')
-
+plt.legend()# it is used for  function is essential for creating clear and informative plots, as it allows you to label each line type.
 plt.show()
         
       
