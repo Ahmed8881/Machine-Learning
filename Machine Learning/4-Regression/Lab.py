@@ -23,6 +23,8 @@ print(f"x^{i}, y^{i}: ({x_i}, {y_i})") #return the first training example
   
 #Plotting the data You can plot these two points using the scatter() function in the matplotlib library, as shown in the cell below.The function arguments marker and c show the points as red crosses (the default is blue dots).You can use other functions in the matplotlib library to set the title and labels to display
 #plot the data points
+plt.scatter(x_train,y_train,marker='x',c='r')
+#set the title
 
 
 
