@@ -55,6 +55,9 @@ tmp_f_wb=compute_model_output(x_train,w,b)
 plt.plot(x_train,tmp_f_wb,c='b',label='Our Prediction')
 # Plot the data points
 plt.scatter(x_train,y_train,marker='x',c='r',label='Actual Values')
+# Set the title
+plt.title("Housing Prices")
+
 plt.show()
         
       
