@@ -57,6 +57,8 @@ plt.plot(x_train,tmp_f_wb,c='b',label='Our Prediction')
 plt.scatter(x_train,y_train,marker='x',c='r',label='Actual Values')
 # Set the title
 plt.title("Housing Prices")
+# Set the y-axis label
+plt.ylabel('Price (in 1000s of dollars)')
 
 plt.show()
         
