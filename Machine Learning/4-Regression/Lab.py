@@ -27,6 +27,8 @@ plt.scatter(x_train,y_train,marker='x',c='r')
 #set the title
 plt.title('House Prices')
 # set the y label
+plt.ylabel('Price in 1000s of dollars')
+# set the x label
 
 
 
