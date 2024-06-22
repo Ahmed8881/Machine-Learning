@@ -36,3 +36,7 @@ Correct Implementation
 1-Update w and b simultaneously.
 2-Use the new values of w and b to update both w and b.
 3-Do not use the updated value of w to update b or vice versa.
+
+Incorrect Implementation:
+Update w first, then compute the new 
+b using the updated w, leading to non-simultaneous updates and potential errors.
