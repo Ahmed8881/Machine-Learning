@@ -7,3 +7,10 @@ The equal sign (=) is the assignment operator in programming. It assigns the val
 Example: a = c assigns the value of c to the variable a.
 Example: a = a + 1 increments the value of a by 1.
 In programming, = is different from the equality assertion in mathematics (==). The equality assertion checks if two values are equal.
+
+Learning Rate (α):
+1-The Greek letter α (alpha) represents the learning rate.
+2-The learning rate is a small positive number (e.g., 0.01).
+3-Controls the step size in gradient descent:
+4-Large α: large steps downhill.
+5-Small α: small, careful steps.
