@@ -10,3 +10,6 @@ General Application:
 Gradient descent can minimize any function, not just the cost function for linear regression.
 Can be applied to models with multiple parameters (w1, w2, w3, ..., wn).
 
+
+Algorithm Overview:
+1-Initialization
