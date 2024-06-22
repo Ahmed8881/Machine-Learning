@@ -15,4 +15,7 @@ Algorithm Overview:
 1-Initialization
 Start with initial guesses for w and 𝑏
 often set to 0
-2-Iterative Process
+
+2-Iterative Process:
+Iteratively adjust w and 𝑏 to reduce the cost 
+J(w,b) Continue until  J reaches or nears a minimum.
