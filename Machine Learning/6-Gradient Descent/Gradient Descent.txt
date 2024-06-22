@@ -13,3 +13,6 @@ Can be applied to models with multiple parameters (w1, w2, w3, ..., wn).
 
 Algorithm Overview:
 1-Initialization
+Start with initial guesses for w and 𝑏
+often set to 0
+2-Iterative Process
