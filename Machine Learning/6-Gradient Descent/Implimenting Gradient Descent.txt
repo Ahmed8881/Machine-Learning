@@ -19,3 +19,10 @@ Derivative Term:
 1-Represents the direction of the steepest descent.
 2-Combined with α, it determines the step size.
 3-Originates from calculus, but detailed knowledge of calculus is not necessary.
+
+Gradient Descent Steps for Parameters w and b:
+Update w
+w=w−α.∂J(w,b)/ ∂w 
+Update b
+b=b−α.∂J(w,b)/ ∂b
+​
