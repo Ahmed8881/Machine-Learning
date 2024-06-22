@@ -32,3 +32,7 @@ Essential to update both w and  b simultaneously:
 Calculate the new values for  w and 
 b before updating either.
 ​
+Correct Implementation
+1-Update w and b simultaneously.
+2-Use the new values of w and b to update both w and b.
+3-Do not use the updated value of w to update b or vice versa.
