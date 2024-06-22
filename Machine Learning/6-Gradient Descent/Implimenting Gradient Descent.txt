@@ -1,0 +1,5 @@
+
+Notes on Gradient Descent Algorithm Implementation
+
+Equation Overview:
+The equal sign (=) is the assignment operator in programming. It assigns the value on the right to the variable on the left. For example, in the equation y = 2x + 3, the value of y is assigned the result of 2x + 3.
