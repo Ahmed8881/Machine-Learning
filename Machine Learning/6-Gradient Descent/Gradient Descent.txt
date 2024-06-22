@@ -1,0 +1,6 @@
+
+Notes on Gradient Descent Algorithm
+Objective:
+
+Minimize the cost function 
+J(w,b).
