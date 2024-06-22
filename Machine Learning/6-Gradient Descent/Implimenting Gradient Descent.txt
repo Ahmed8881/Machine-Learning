@@ -40,3 +40,21 @@ Correct Implementation
 Incorrect Implementation:
 Update w first, then compute the new 
 b using the updated w, leading to non-simultaneous updates and potential errors.
+
+
+Convergence:
+
+The algorithm converges when 
+w and b reach values that do not change significantly with further updates.
+
+
+Gradient Descent Summary:
+
+Gradient descent involves taking steps in the direction of steepest descent.
+The learning rate determines the size of these steps.
+Simultaneous updates of parameters are crucial for the correct implementation.
+Next Steps:
+
+Understanding and implementing the derivative term.
+The next section will cover the derivative term in detail, providing the necessary intuition and knowledge to apply gradient descent.
+These notes provide a clear understanding of the gradient descent algorithm, focusing on the importance of the learning rate, the role of the derivative term, and the need for simultaneous updates of parameters.
