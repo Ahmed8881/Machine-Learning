@@ -5,3 +5,9 @@ Gradient Descent Algorithm:
 1-The learning rate (𝛼) controls the step size for updating parameters 
 w and b.
 2-The term 𝑑𝑤/du represents the derivative (or partial derivative) of the cost function J with respect to 𝑤.
+
+Learning Rate (𝛼):
+1-A small positive number, typically between 0 and 1.
+2-Determines how big or small the steps are in the descent process.
+Large α: aggressive, large steps.
+Small α: conservative, small steps.
