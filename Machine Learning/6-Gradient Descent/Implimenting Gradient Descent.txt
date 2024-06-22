@@ -25,4 +25,10 @@ Update w
 w=w−α.∂J(w,b)/ ∂w 
 Update b
 b=b−α.∂J(w,b)/ ∂b
+
+Simultaneous Update:
+
+Essential to update both w and  b simultaneously:
+Calculate the new values for  w and 
+b before updating either.
 ​
