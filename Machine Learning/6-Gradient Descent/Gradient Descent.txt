@@ -4,3 +4,7 @@ Objective:
 
 Minimize the cost function 
 J(w,b).
+
+General Application:
+
+Gradient descent can minimize any function, not just the cost function for linear regression.
