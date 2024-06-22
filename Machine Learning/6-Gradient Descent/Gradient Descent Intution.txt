@@ -1,0 +1,1 @@
+Notes on Gradient Descent: Understanding the Learning Rate and Derivative:
