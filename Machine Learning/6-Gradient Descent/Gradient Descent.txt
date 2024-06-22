@@ -19,3 +19,31 @@ often set to 0
 2-Iterative Process:
 Iteratively adjust w and 𝑏 to reduce the cost 
 J(w,b) Continue until  J reaches or nears a minimum.
+
+Conceptual Understanding:
+
+Surface Plot Example:
+Imagine a hilly surface representing the cost function.
+High points are hills, low points are valleys.
+Starting at a point, you want to move to the lowest valley.
+Gradient Descent Steps:
+
+Choose Direction:
+Look around and determine the direction of steepest descent (downhill).
+Take Step:
+Take a small step in that direction.
+Repeat this process from the new position.
+Reach Minimum:
+Continue taking steps until you reach a local minimum.
+Properties of Gradient Descent:
+
+Local Minima:
+Different starting points can lead to different local minima.
+Starting at different points on the surface can lead to settling in different valleys.
+Mathematical Implementation:
+
+The next step will involve looking at the mathematical expressions to implement gradient descent effectively.
+Note:
+
+Gradient descent is foundational for training advanced models, including neural networks (deep learning).
+Understanding and applying gradient descent is crucial for minimizing cost functions in various machine learning models.
