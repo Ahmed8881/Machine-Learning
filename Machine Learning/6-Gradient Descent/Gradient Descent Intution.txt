@@ -11,3 +11,13 @@ Learning Rate (𝛼):
 2-Determines how big or small the steps are in the descent process.
 Large α: aggressive, large steps.
 Small α: conservative, small steps.
+
+Derivative Term:
+
+1-The derivative of J at a point indicates the slope of the tangent line to the curve at that point.
+2-Positive derivative: slope is positive, indicating the curve is rising.
+3-Negative derivative: slope is negative, indicating the curve is falling.
+
+Example with One Parameter (w):
+
+Consider a cost function 𝐽(𝑤)with w as a single parameter.
