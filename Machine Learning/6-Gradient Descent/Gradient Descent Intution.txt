@@ -21,3 +21,9 @@ Derivative Term:
 Example with One Parameter (w):
 
 Consider a cost function 𝐽(𝑤)with w as a single parameter.
+
+
+
+
+
+
