@@ -12,3 +12,18 @@ Components:
 • Measures the average of the squares of the errors (differences between predicted and actual values):
 • J(𝑤,𝑏) = 1/2m ∑(𝑦−(𝑤𝑥+𝑏))^2
 • m is the number of training examples
+
+3-Gradient Descent Algorithm:
+• Minimizes the cost function by iteratively moving towards the minimum:
+• Repeat until convergence {
+• 𝑤 = 𝑤 − 𝛼 ∂𝐽(𝑤,𝑏)/∂𝑤
+• 𝑏 = 𝑏 − 𝛼 ∂𝐽(𝑤,𝑏)/∂𝑏
+• }
+• 𝛼 is the learning rate
+
+Derivatives Calculation (Optional Slide):
+• Derivatives of the cost function with respect to 𝑤 and 
+𝑏:
+• ∂𝐽(𝑤,𝑏)/∂𝑤 = 1/m ∑(𝑦−(𝑤𝑥+𝑏))∗(−𝑥) 
+• ∂𝐽(𝑤,𝑏)/∂𝑏 = 1/m ∑(𝑦−(𝑤𝑥+𝑏))∗(−1)
+
