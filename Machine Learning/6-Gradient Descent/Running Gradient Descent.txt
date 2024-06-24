@@ -27,3 +27,16 @@ Derivatives Calculation (Optional Slide):
 • ∂𝐽(𝑤,𝑏)/∂𝑤 = 1/m ∑(𝑦−(𝑤𝑥+𝑏))∗(−𝑥) 
 • ∂𝐽(𝑤,𝑏)/∂𝑏 = 1/m ∑(𝑦−(𝑤𝑥+𝑏))∗(−1)
 
+Properties of the Cost Function:
+1-Convexity:
+•The squared error cost function for linear regression is convex.
+•This means it has a single global minimum, ensuring gradient descent will converge to this global minimum.
+
+
+
+Conclusion:
+Implementation Strategy:
+
+Initialize w and b, then iteratively update them using gradient descent until convergence.
+Ensure the learning rate 
+α is chosen appropriately to balance convergence speed and stability.
