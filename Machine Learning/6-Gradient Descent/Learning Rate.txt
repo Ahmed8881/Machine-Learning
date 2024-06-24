@@ -1,2 +1,10 @@
 
-Learning Rate (Alpha) and Gradient Descent
+Learning Rate (Alpha) and Gradient Descent:
+
+1-Effect of Small Learning Rate (Alpha):
+
+•If alpha is too small, gradient descent takes tiny steps towards the minimum.
+
+•This results in very slow convergence because each update moves W by a minuscule amount.
+
+•While gradient descent will eventually converge to the minimum, it does so very slowly, requiring many iterations.
