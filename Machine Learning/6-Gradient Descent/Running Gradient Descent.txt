@@ -1,1 +1,5 @@
 Notes on Gradient Descent for Linear Regression:
+
+1-Introduction
+• Objective: Implement gradient descent using the squared error cost function for linear regression to optimize parameters w and 𝑏
+• Outcome: Achieve a linear regression model that fits a straight line to training data.
