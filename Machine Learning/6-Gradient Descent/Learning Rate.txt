@@ -24,3 +24,9 @@ Learning Rate (Alpha) and Gradient Descent:••••
 • If the current parameter W is at a local minimum, the derivative of the cost function with respect to W is zero at that point.
 • Gradient descent update rule then dictates that W remains unchanged (W = W - alpha * 0).
 • Thus, if W is already at a local minimum, further iterations of gradient descent do not alter W, which is desirable as it keeps the solution stable at the minimum.
+
+4-Automatic Adjustment of Step Size:
+
+• During gradient descent, as W approaches a local minimum, the derivative (slope) of the cost function decreases.
+• Consequently, the step size automatically reduces because each update is proportional to the derivative multiplied by alpha.
+• This adaptive behavior helps gradient descent to naturally converge towards a minimum, even if alpha is kept constant.
