@@ -11,16 +11,16 @@ Learning Rate (Alpha) and Gradient Descent:••••
 
 2-Effect of Large Learning Rate (Alpha):
 
-•Conversely, if alpha is too large, gradient descent takes large steps.
+• Conversely, if alpha is too large, gradient descent takes large steps.
 
-•This can lead to overshooting the minimum point of the cost function.
+• This can lead to overshooting the minimum point of the cost function.
 
-•Subsequent updates may continue to overshoot, causing the algorithm to diverge rather than converge.
+• Subsequent updates may continue to overshoot, causing the algorithm to diverge rather than converge.
 
-•In extreme cases, this can prevent convergence altogether.
+• In extreme cases, this can prevent convergence altogether.
 
 3-Behavior at Local Minimum:
 
-If the current parameter W is at a local minimum, the derivative of the cost function with respect to W is zero at that point.
-Gradient descent update rule then dictates that W remains unchanged (W = W - alpha * 0).
-Thus, if W is already at a local minimum, further iterations of gradient descent do not alter W, which is desirable as it keeps the solution stable at the minimum.
+• If the current parameter W is at a local minimum, the derivative of the cost function with respect to W is zero at that point.
+• Gradient descent update rule then dictates that W remains unchanged (W = W - alpha * 0).
+• Thus, if W is already at a local minimum, further iterations of gradient descent do not alter W, which is desirable as it keeps the solution stable at the minimum.
