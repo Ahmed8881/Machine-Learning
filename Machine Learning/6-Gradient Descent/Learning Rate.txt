@@ -30,3 +30,9 @@ Learning Rate (Alpha) and Gradient Descent:••••
 • During gradient descent, as W approaches a local minimum, the derivative (slope) of the cost function decreases.
 • Consequently, the step size automatically reduces because each update is proportional to the derivative multiplied by alpha.
 • This adaptive behavior helps gradient descent to naturally converge towards a minimum, even if alpha is kept constant.
+
+5-Choosing an Appropriate Alpha:
+
+• The choice of alpha is crucial for efficient convergence of gradient descent.
+• It typically requires experimentation and tuning based on the specific problem and data.
+• Techniques like learning rate schedules or adaptive learning rates (such as AdaGrad, RMSProp, or Adam) are often used to improve the performance of gradient descent algorithms.
