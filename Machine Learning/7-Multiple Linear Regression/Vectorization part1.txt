@@ -1,0 +1,19 @@
+Vectorization is a technique used in programming to perform operations on entire arrays or matrices instead of individual elements. It leverages the power of modern numerical linear algebra libraries, such as NumPy, to make code shorter and more efficient.
+
+In vectorization, you can represent parameters and features as arrays or vectors. For example, you can define a parameter vector w with three numbers and a feature vector x with three numbers.
+
+When working with arrays in Python, it's important to note that indexing starts from 0. So, to access the first value of w, you would use w[0], and to access the second value, you would use w[1], and so on.
+
+Without vectorization, you might use a for loop to compute the model's prediction. This involves multiplying each parameter w_j with its associated feature x_j and summing them up. However, this approach can be inefficient, especially when dealing with large values of n.
+
+Vectorization allows you to compute the model's prediction using a single line of code. You can use the np.dot() function from the NumPy library to calculate the dot product between the parameter vector w and the feature vector x. Finally, you can add the bias term b to the result.
+
+The NumPy np.dot() function is a vectorized implementation of the dot product operation between two vectors. It takes advantage of parallel hardware in your computer, such as CPUs or GPUs, to perform computations efficiently.
+
+Vectorization offers two main benefits: it makes code shorter and more readable, and it improves the performance of your code. By utilizing parallel hardware, vectorized code can run much faster compared to non-vectorized implementations.
+
+However, it's important to note that vectorization may not always be the most computationally efficient approach. In some cases, specialized algorithms or techniques may be required to further optimize performance.
+
+Overall, vectorization is a powerful technique that can significantly enhance the efficiency and readability of your code, especially when working with large datasets or complex mathematical operations.
+
+I hope these theoretical notes help you understand the concept of 
