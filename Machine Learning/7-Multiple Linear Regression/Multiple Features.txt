@@ -1,0 +1,26 @@
+Multiple Linear Regression
+
+In multiple linear regression, we consider not just one feature, but multiple features to predict the target variable. The model is defined as:
+
+fwb(X) = w1x1 + w2x2 + w3x3 + ... + wnxn + b
+
+Here, X represents the vector of features, and w1, w2, w3, ..., wn are the parameters associated with each feature. The parameter b represents the bias term.
+
+For example, in the context of housing price prediction, a possible model could be:
+
+fwb(X) = 0.1 * X1 + 4 * X2 + 10 * X3 - 2 * X4 + 80
+
+Interpreting the parameters:
+- The bias term b = 80 represents the base price of a house assuming no features are present.
+- The parameter w1 = 0.1 indicates that for every additional square foot (X1), the price increases by $100.
+- The parameter w2 = 4 suggests that each additional bedroom (X2) increases the price by $4,000.
+- The parameter w3 = 10 implies that each additional floor (X3) increases the price by $10,000.
+- The parameter w4 = -2 indicates that each additional year of the house's age (X4) decreases the price by $2,000.
+
+To simplify the notation, we can represent the parameters w1, w2, w3, ..., wn as a vector W, and the features X1, X2, X3, ..., Xn as a vector X. The model can then be written as:
+
+f(X) = W · X + b
+
+Here, the dot product (·) represents the sum of the element-wise multiplication of the corresponding elements of W and X.
+
+Implementing multiple linear regression can be made simpler using a technique called vectorization, which simplifies the computation using linear algebra operations.
