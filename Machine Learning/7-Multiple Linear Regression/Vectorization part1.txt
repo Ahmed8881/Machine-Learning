@@ -16,4 +16,3 @@ However, it's important to note that vectorization may not always be the most co
 
 Overall, vectorization is a powerful technique that can significantly enhance the efficiency and readability of your code, especially when working with large datasets or complex mathematical operations.
 
-I hope these theoretical notes help you understand the concept of 
