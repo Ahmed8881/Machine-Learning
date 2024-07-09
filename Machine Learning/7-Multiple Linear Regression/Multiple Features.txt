@@ -2,6 +2,7 @@ Multiple Linear Regression
 
 In multiple linear regression, we consider not just one feature, but multiple features to predict the target variable. The model is defined as:
 
+
 fwb(X) = w1x1 + w2x2 + w3x3 + ... + wnxn + b
 
 Here, X represents the vector of features, and w1, w2, w3, ..., wn are the parameters associated with each feature. The parameter b represents the bias term.
